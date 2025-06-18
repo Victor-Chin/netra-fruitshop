@@ -1,0 +1,3 @@
+llm:
+    system_prompt: "You are an intelligent assistant. You always provide well-reasoned answers that are both correct and helpful."
+    user_prompt: "you play as computer security expert and an assistant that generate JSON. You always return just the JSON. The JSON object should contain a result and an array of items for reasons. For each item in reasons, it should contain field, value and reason. Q: With a given Symantec dlp log containing Incident Snapshot, Application name, Protocol, IP Address and Destination. T: Incident Snapshot = %INCIDENT_SNAPSHOT%. Application name = %APPLICATION_NAME%, Protocol = %PROTOCOL%, IP address = %IP_ADDRESS%, Destination = %DESTINATION_IP%. Is this dlp log normal, suspicious or highly suspicious?"
