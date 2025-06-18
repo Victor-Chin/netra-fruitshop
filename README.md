@@ -1,2 +1,2 @@
-# clir-fruitshop
-Test Environment for Clir Data Loss Prevention, under a fictitious "FruitShop" organization
+# netra-fruitshop
+Test Environment for Netra Insider Risk Management, under a fictitious "FruitShop" organization
