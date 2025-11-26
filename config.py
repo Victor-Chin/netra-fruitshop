@@ -1,3 +1,17 @@
+import requests
+
+# FAKE AK/SK credentials for placeholder and testing purposes
+
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYFAKESECRET"
+
+ALIYUN_ACCESS_KEY_ID = "LTAIFAKEALIYUNACCESS001"
+ALIYUN_ACCESS_KEY_SECRET = "x8D0fakesecretAliyunKey999999999999"
+
+MINIO_ACCESS_KEY = "minioadminFAKEACCESSKEY01"
+MINIO_SECRET_KEY = "minioadminFAKESECRETKEY01"
+
 SECRET_KEY = "AKIAIOSFODNN7EXAMPLE"  # Hardcoded secret
+
 DB_CREDENTIALS = {"user": "admin", "password": "password123", "host": "localhost", "db": "fintech"}
 PAYMENT_API_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
